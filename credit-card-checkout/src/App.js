@@ -164,7 +164,7 @@ function App() {
                     {products.map((product) => (
                       <li className="mt-10" key={product.id}>
                         <div className="flex">
-                          <div className="float-left mr-5 flex h-[100px] w-[100px] items-center border-2 border-black text-center">
+                          <div className="float-left mr-5 flex min-h-[100px] min-w-[100px] items-center border-2 border-black text-center">
                             Product image
                           </div>
                           <div className="flex w-full flex-col justify-between">
